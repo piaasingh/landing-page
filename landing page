@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="nav-items">
+        <a href="#" class="nav-item">Home</a>
+        <a href="#" class="nav-item">About Us</a>
+        <a href="#" class="nav-item">Contanct</a>
+      </div>
+      <div class="social-icons">
+        <a href="#" class="social-icon"
+          ><img src="twitter (1).svg" alt="Twitter"
+        /></a>
+        <a href="#" class="social-icon"
+          ><img src="facebook.svg" alt="Facebook"
+        /></a>
+      </div>
+    </div>
+    <div class="content">
+      <div class="text-above-image">
+        Ethiopian Aviation Acadamy Ethiopian Airlines, <br />
+        The multi-award winning and largest airline in Africa.<br />
+      </div>
+      <img class="img" src="plane.jpg" alt="plane" />
+    </div>
+    <div class="flex-container">
+      <div class="column">
+        <h2><a href="#">Tickets</a></h2>
+        <p>
+          Airline ticket, a document created by an airline or a travel agent to
+          confirm that an individual has purchased a seat on an airplane
+        </p>
+      </div>
+      <div class="column">
+        <h2><a href="#">Return</a></h2>
+        <p>
+          Product return, the process of bringing back merchandise to a retailer
+          for a refund or exchange
+        </p>
+      </div>
+      <div class="column">
+        <h2><a href="#">Bookings</a></h2>
+        <p>See all your bookings here and your history of bookings</p>
+      </div>
+    </div>
+    <div class="intro">
+      <h1>About Us</h1>
+      <p>
+        Why is Ethiopian Airlines famous? Over the decades, the airline has
+        established itself as the leader in all facets of the aviation business:
+        technology leadership, network expansion and aviation mentoring.
+        Ethiopian started its operation with five C-47 aircrafts back in 1946
+        and made its debut fight to Cairo via Asmara.Ethiopian Airlines Group is
+        the state-owned corporate entity of Ethiopia's flagship carrier. Founded
+        in 21-Dec-1945, the Government of Ethiopia established the airline group
+        as a provider of aviation services including cargo, MRO, aviation
+        training, ground handling and catering services.
+      </p>
+    </div>
+    <div class="flex-container">
+      <h3>OUR SERVICES</h3>
+      <div class="image">
+        <img src="img1.jpg" alt="Image 1" />
+        <p>
+          We offer the full spectrum of services to help organizations work
+          better..
+        </p>
+      </div>
+      <div class="image">
+        <img src="img2.jpg" alt="Image 2" />
+        <p>
+          Everything from creating standards of excellence to training your
+          people to work in more effective ways,
+        </p>
+      </div>
+      <div class="image">
+        <img src="img3.jpg" alt="Image 3" />
+        <p>
+          Very few others do this, and none have been doing it as long as we
+          have.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
