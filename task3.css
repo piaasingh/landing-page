@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the navigation bar */
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+    overflow: hidden; /* Clear floats */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Style for the navigation bar links */
+.navbar a {
+    float: right; /* Float the links to the right */
+    display: block; /* Make them block elements */
+    color: white; /* Text color */
+    text-align: center; /* Center align the text */
+    padding: 14px 16px; /* Add padding to the links */
+    text-decoration: none; /* Remove underlines from the links */
+}
+
+/* Style for the navigation bar links on hover */
+.navbar a:hover {
+    background-color: #ddd; /* Background color on hover */
+    color: black; /* Text color on hover */
+}
+/* Style for the container */
+.image-container {
+    position: relative;
+    margin: 0 auto; /* Center the container */
+}
+
+/* Style for the image */
+.image-container img {
+    width: 100%;
+    height: 50%;
+}
+
+/* Style for the text overlay */
+.image-caption {
+    position: absolute;
+    top: 50%; /* Position the text 50% from the top */
+    left: 50%; /* Position the text 50% from the left */
+    transform: translate(-50%, -50%); /* Center the text horizontally and vertically */
+    background-color: rgba(0, 0, 0, 0.7); /* Background color for the text */
+    color: white; /* Text color */
+    padding: 10px 15px; /* Padding for the text */
+    text-align: center; /* Center align the text */
+}
+/* Style for the navbar */
+.navbar2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333; /* Background color for the navbar */
+    height: 400px; /* Adjust the height as needed */
+    width: 100%;
+}
+
+/* Style for each navigation item */
+.nav-item {
+    text-align: center;
+    color: white; /* Text color */
+    width: 25%;
+}
+
+/* Style for images in each navigation item */
+.nav-item img {
+    width: 100px; /* Adjust the image width as needed */
+    height: auto;
+}
