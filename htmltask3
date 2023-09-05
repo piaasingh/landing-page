@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="task3.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#contact-section">Contact</a>
+      <a href="#about-section">About</a>
+      <a href="#home-section">Home</a>
+    </div>
+    <div class="image-container" id="home-section">
+      <img src="pia.jpeg" alt="Image Description" />
+      <div class="image-caption">
+        <h2>Hi!,Its Pia Singh</h2>
+      </div>
+    </div>
+    <div class="About" id="about-section">
+      <h1>Description</h1>
+      <p>
+        I am currently a third-year B.Tech student pursuing a degree in
+        Information Technology (IT). My journey in the world of technology has
+        been an exciting and ever-evolving one. With a passion for web
+        development, I have honed my skills and knowledge in various programming
+        languages and technologies. My programming journey began with languages
+        like C++, C, and Python, which provided me with a strong foundation in
+        computer science and problem-solving. These languages have not only
+        helped me understand the fundamentals of programming but have also
+        enabled me to take on a wide range of coding challenges. As a web
+        development enthusiast, I have delved into the world of front-end
+        development, where I've become proficient in HTML and CSS. These
+        languages allow me to create visually appealing and responsive websites,
+        providing users with an engaging and seamless experience. To stay
+        current and continue growing as a developer, I am constantly expanding
+        my skill set. Currently, I am in the process of learning React, a
+        popular JavaScript library for building user interfaces. React's
+        component-based architecture and reusability have piqued my interest,
+        and I am excited to explore its capabilities further. My passion for web
+        development extends beyond the classroom. I have had the opportunity to
+        work on various personal projects, including websites and web
+        applications, which have allowed me to apply my knowledge in a practical
+        context and further enhance my skills. As a student in the ever-evolving
+        field of IT and a web development enthusiast, I am enthusiastic about
+        the endless possibilities that technology offers. I am eager to continue
+        learning and growing as a developer, taking on new challenges, and
+        contributing to the exciting advancements in the world of web
+        development.
+      </p>
+    </div>
+    <nav class="navbar2">
+      <div class="nav-item">
+        <img src="stanford.jpeg" alt="Image 1" />
+        <p>A certificate of basics of python in Ai from Stanford Uni</p>
+      </div>
+      <div class="nav-item">
+        <img src="FCC.jpeg" alt="Image 2" />
+        <p>A certificate of responsive html and css from FCC</p>
+      </div>
+      <div class="nav-item">
+        <img src="c.jpeg" alt="Image 3" />
+        <p>A certificate from Aptech of C and C++</p>
+      </div>
+    </nav>
+    <footer>
+      <h1 id="contact-section">Contancts</h1>
+      <form name="myForm" onsubmit="return validateForm();" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+      <p>
+        linkedln
+        <a href="https://www.linkedin.com/in/pia-singh-5965b52">piasingh</a>
+      </p>
+      <p>918527583763</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
